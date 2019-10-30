@@ -30,6 +30,7 @@ public class Cours {
     public Cours(String intitule, String duree) {
         this.intitule = intitule;
         this.duree = duree;
+        this.prof = 1;
     }
 
     public Cours() {
