@@ -30,13 +30,13 @@ public class Ig19Suite {
     @AfterClass
     public static void tearDownClass() throws Exception {
         System.out.println("Suite.AfterClass.tearDownClass");
-        /*try (Connection con = DataAccess.connect()) {
+        try (Connection con = DataAccess.connect()) {
             try (Statement stm = con.createStatement()) {
-                if(stm.execute("DROP DATABASE " + DataAccess.DBNAME)) {
-                    System.out.println("DATABASE '" + DataAccess.DBNAME + "' was DELETED.");
+                if(stm.execute("DROP SCHEMA " + DataAccess.DBNAME + ";")) {
+                    System.out.println("SCHEMA '" + DataAccess.DBNAME + "' was DELETED.");
                 }
             }
-        }*/
+        }
     }
 
     @Before
