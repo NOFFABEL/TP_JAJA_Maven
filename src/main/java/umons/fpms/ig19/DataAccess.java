@@ -23,8 +23,8 @@ import org.apache.ibatis.jdbc.ScriptRunner;
  */
 public class DataAccess {
     public static final String DBNAME = "test_java";
-    private static final String DBUSER = "root";
-    private static final String DBPASS = "sql-db-2020";
+    private static final String DBUSER = "user01";
+    private static final String DBPASS = "user01";
     private static final String DBHOST = "192.168.250.3";
     private static final String DBSERVER = "mysql";
     private static final String DBPORT = "3306";
